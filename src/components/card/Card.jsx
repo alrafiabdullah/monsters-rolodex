@@ -6,7 +6,7 @@ function Card(props) {
   return (
     <div className="card-container">
       <img
-        src={`https://robohash.org/${props.monster.id}?set=set2&size=180x180`}
+        src={`https://robohash.org/${props.monster.id}?set=set2&size=480x480`}
         alt="monster"
       />
       <h3>{props.monster.name}</h3>
